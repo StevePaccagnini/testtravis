@@ -1,0 +1,5 @@
+language: php
+php:
+  - "5.4"
+after_success:
+    "curl --ftp-create-dirs -T {*} -u $user:$pwd ftp://$host/steve/"

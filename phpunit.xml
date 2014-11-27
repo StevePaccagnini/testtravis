@@ -1,0 +1,7 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="simple">
+      <file>index.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
